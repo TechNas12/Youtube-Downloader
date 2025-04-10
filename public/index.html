@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YouTube Video Downloader</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>YouTube Video Downloader</h1>
+    
+    <div class="form-container">
+      <form id="url-form">
+        <div class="input-group">
+          <label for="youtube-url">Enter YouTube URL:</label>
+          <input 
+            type="text" 
+            id="youtube-url" 
+            placeholder="https://www.youtube.com/watch?v=..." 
+            required
+          >
+        </div>
+        <button type="submit" id="validate-btn">Validate URL</button>
+      </form>
+
+      <div id="error-message" class="error-message"></div>
+      
+      <div id="video-info" class="hidden">
+        <h2 id="video-title"></h2>
+        
+        <div id="thumbnail-container" class="thumbnail-container">
+          <img id="video-thumbnail" class="video-thumbnail" alt="Video thumbnail">
+        </div>
+        
+        <div class="quality-selection">
+          <h3>Select Video Quality:</h3>
+          <select id="quality-options" class="quality-dropdown"></select>
+        </div>
+        
+        <button id="download-btn" class="download-btn">Download Video</button>
+        
+        <div id="download-status" class="download-status hidden">
+          <div id="download-progress-container" class="progress-container">
+            <div id="download-progress" class="progress-bar"></div>
+          </div>
+          <p id="download-message">Preparing download...</p>
+        </div>
+      </div>
+      
+      <div id="loader" class="loader hidden"></div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html> 
