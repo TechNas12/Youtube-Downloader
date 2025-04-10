@@ -13,10 +13,6 @@ A simple web application that allows users to download YouTube videos by providi
 - Direct download of videos to your device
 - Clean, responsive UI
 
-## Demo
-
-[Live Demo](https://github.com/yourusername/youtube-downloader) - Replace with your GitHub Pages or hosting URL if available
-
 ## Requirements
 
 - Node.js (v12 or higher)
@@ -79,11 +75,6 @@ When a user inputs a YouTube URL, the application:
 - **YouTube API**: @distube/ytdl-core
 - **Development**: Nodemon for hot reloading
 
-## Screenshots
-
-![Validation Screen](screenshots/validation.png)
-![Download Screen](screenshots/download.png)
-
 (Note: Replace with actual screenshots from your application)
 
 ## Contributing
@@ -106,6 +97,5 @@ This application is for personal and educational use only. The downloading of co
 
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_twitter) - email@example.com
-
-Project Link: [https://github.com/yourusername/youtube-downloader](https://github.com/yourusername/youtube-downloader) 
+Your Name - Sanket Dahotre
+Email - dahotresanket12@gmail.com
